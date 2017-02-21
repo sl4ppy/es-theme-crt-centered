@@ -80,12 +80,11 @@ based on:       "Carbon Centered" by Eric Hettervik
       <image name="crt" extra="true">
          <path>./_inc/images/crt-video.png</path>
       </image>
-<!--      <image name="md_image">
+      <image name="md_image">
          <origin>1 1</origin>
          <pos>0.95 0.530</pos>
          <maxSize>0.2953124 0.525</maxSize>
       </image>
--->
       <image name="md_marquee">
          <origin>0 0</origin>
          <pos>1 1</pos>
@@ -93,7 +92,7 @@ based on:       "Carbon Centered" by Eric Hettervik
       <video name="md_video">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.35</pos>
-         <size>0.4 0.30</size>
+         <size>0.4 0.28</size>
          <delay>0.01</delay>
          <default>./_inc/videos/static.mp4</default>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
