@@ -37,17 +37,17 @@ based on:       "Carbon Centered" by Eric Hettervik
       <image name="logo">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.075</pos>
-         <maxSize>0.25 0.05</maxSize>
+         <maxSize>0.9 0.9</maxSize>
       </image>
       <textlist name="gamelist">
-         <pos>0.1875 0.175</pos>
-         <size>0.625 0.675</size>
+         <pos>0.1875 0.55</pos>
+         <size>0.625 0.45</size>
          <selectorColor>1c1c1c00</selectorColor>
          <selectedColor>bba358</selectedColor>
          <primaryColor>eaeaea</primaryColor>
          <secondaryColor>eaeaea</secondaryColor>
          <fontPath>./_inc/fonts/Cabin-Bold-TTF.ttf</fontPath>
-         <fontSize>0.038</fontSize>
+         <fontSize>0.025</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/sounds/select.wav</scrollSound>
          <alignment>center</alignment>
@@ -61,12 +61,10 @@ based on:       "Carbon Centered" by Eric Hettervik
       <image name="crt" extra="true">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.35</pos>
-         <size>0.3125 0.425</size>
+         <size>0.45 0.38</size>
          <path>./_inc/images/crt.png</path>
       </image>
       <textlist name="gamelist">
-         <pos>0.1875 0.558</pos>
-         <size>0.625 0.275</size>
       </textlist>
    </view>
 
@@ -82,11 +80,12 @@ based on:       "Carbon Centered" by Eric Hettervik
       <image name="crt" extra="true">
          <path>./_inc/images/crt-video.png</path>
       </image>
-      <image name="md_image">
+<!--      <image name="md_image">
          <origin>1 1</origin>
-         <pos>0.6484375 0.530</pos>
-         <maxSize>0.0984375 0.175</maxSize>
+         <pos>0.95 0.530</pos>
+         <maxSize>0.2953124 0.525</maxSize>
       </image>
+-->
       <image name="md_marquee">
          <origin>0 0</origin>
          <pos>1 1</pos>
@@ -94,10 +93,10 @@ based on:       "Carbon Centered" by Eric Hettervik
       <video name="md_video">
          <origin>0.5 0.5</origin>
          <pos>0.5 0.35</pos>
-         <size>0.25 0.33</size>
+         <size>0.4 0.30</size>
          <delay>0.01</delay>
          <default>./_inc/videos/static.mp4</default>
-         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <showSnapshotDelay>false</showSnapshotDelay>
       </video>
    </view>
